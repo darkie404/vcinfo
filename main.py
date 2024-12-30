@@ -22,7 +22,7 @@ def fetch_vehicle_details(vehicle_number):
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
         "Accept": "application/json",
-        "Cookie": "trackerid=9033febc-7256-4b84-9efb-fc99c9dfdf60; user_id=j3hMTZKo1oCf4RctlFxdgw:1733332955688:cc4982d8ea5d040043af07feae033e693b8ff953;"
+        "Cookie": "trackerid=9033febc-7256-4b84-9efb-fc99c9dfdf60; user_id=j3hMTZKo1oCf4RctlFxdgw:733332955688:cc4982d8ea5d040043af07feae033e693b8ff953;"
     }
     response = requests.get(url, headers=headers)
     if response.status_code == 200 and response.json():
